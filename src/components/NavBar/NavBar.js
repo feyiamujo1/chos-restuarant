@@ -6,14 +6,14 @@ function NavBar(){
     return(
         <div className="navbar">
             <div>
-                <img src="./images/logo.png" alt="logo"/>
+                <img src="" alt="logo"/>
             </div>
-                <ul className="nav-links">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/products">Products</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                </ul>
+            <ul className="nav-links">
+                <li><Link to="/" className="text_link">Home</Link></li>
+                <li><Link to="/about" className="text_link">About</Link></li>
+                <li><Link to="/products" className="text_link">Products</Link></li>
+                <li><Link to="/contact" className="text_link">Contact</Link></li>
+            </ul>
         </div>
     )
 }

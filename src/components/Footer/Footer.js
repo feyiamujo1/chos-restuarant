@@ -1,8 +1,11 @@
 import React from "react"
+import "./footer.css"
 function Footer(){
     return(
         <div>
-            This is the footer
+            <footer>
+                Powered by: React Group 76 for SideHustle Internship 5.0
+            </footer>
         </div>
     )
 }
