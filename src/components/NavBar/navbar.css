@@ -27,6 +27,7 @@
 li{
     margin: 10px;
     list-style: none;
+    text-transform: capitalize;
 }
 .text_link{
     text-decoration: none;

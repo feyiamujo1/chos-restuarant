@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.products_display{
+    height: 100vh;
+    min-height: 100%;
+    background-image: url("../../images/products_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: blur(1px);
+}
+.products_display p{
+    margin: 0 auto;
+}
+.intro_content{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+.intro_text_small{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FBB448;
+    letter-spacing: .15em;
+    margin: 0;
+    font-family: "Lato", Arial, sans-serif;
+}
+.intro_text_big{
+    margin: 0;
+    font-size: 80px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-family: 'Kaushan Script', cursive;
+    color: #ffffff;
+}
+.main_menu_container{
+    margin: 0 auto;
+}
+.menu_intro{
+    text-align: center;
+}
+.menu_intro h1{
+    font-family: 'Kaushan Script', cursive;
+    color: #8b5123; /* #FBB448 or #8b5123 or *#5e371f*/
+}
+.menu_intro p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    color: gray;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.menu_intro hr{
+    height: 2px;
+    width: 400px;
+    background-color: #8b5123;
+    border: none;
+}
+.menu_container{
+    padding: 0px 15px;
+    text-align: center;
+}
+.food_deplay{
+    width: 33.3%;
+}
+.food_name{
+    color: #8b5123;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    font-family: "Lato", Arial, sans-serif;
+}
+.food_detail{
+    font-size: 16px;
+}
+.food_price{
+    font-size: 18px;
+    text-align: center;
+    color: #8b5123;
+    font-weight: 400;
+    font-family: 'Kaushan Script', cursive;
+}

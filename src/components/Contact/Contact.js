@@ -3,7 +3,7 @@ function Contact() {
     return(
         <div>
             <p>
-            This is the About page
+            This is the Contact page
             </p>
         </div>
     )
