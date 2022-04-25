@@ -9,7 +9,7 @@
 .navbar .nav-links li{
     margin: 10px;
     list-style: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .navbar .nav-links li .text_link{
     text-decoration: none;
