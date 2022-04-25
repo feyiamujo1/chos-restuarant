@@ -6,6 +6,8 @@ import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import NavBar from './components/NavBar/NavBar';
 import Product from './components/Product/Product';
+import "./App.css"
+
 
 function App() {
   return (
