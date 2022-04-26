@@ -69,13 +69,11 @@ function Product() {
     return(
         <div>
             <div className="products_display">
-                
-            </div>
-            <div className="intro_content">
-                    <p className="intro_text_small">HAND-CRAFTED BY OUR CHEFS</p>
-                    <h1 className="intro_text_big">All in good taste!</h1>
+                <div className="intro_content">
+                        <p className="intro_text_small">HAND-CRAFTED BY OUR CHEFS</p>
+                        <h1 className="intro_text_big">All in good taste!</h1>
                 </div>
-            <div>
+            </div>
             <div className="main_menu_container">
                 <div className="menu_intro">
                     <h1>Our Menu</h1>
@@ -99,7 +97,6 @@ function Product() {
                         </div>  
                         )}
                 </div>
-            </div>
             </div>
         </div>
     )

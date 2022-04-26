@@ -14,8 +14,7 @@ function About() {
     return(
         <div className="about_page">
             <section id="header">
-                <div class="container">
-                    <div class="bg-image"></div>
+                <div class="container bg-image">
                     <div class="info">
                     <h1>About Us</h1>
                     <p>We are a seasonal restaurant with freshly-baked snacks, sweet desserts and delicous food/delicacies. We are located in Nigeria and the business is run

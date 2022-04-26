@@ -6,24 +6,22 @@
     /* margin: 0 auto; */
 }
 #header {
-    height: 90vh;
+    height: 100vh;
+    width: 100%;
 }
 .bg-image {
-    background: url("../../images//restaurant-img4.jpg") no-repeat center fixed;
-    background-position: bottom;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/public/restaurant-img4.jpg") no-repeat bottom fixed;
+    background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
-    height: 90vh;
-    filter: blur(3px);
-    
+    box-sizing: border-box;
 }
 .container .info {
     color: #FBB448;
     width: 50%;
     font-size: 30px;
-    padding: 10px;
-    position: absolute;
-    top: 30%;
-    left: 10%;
+    padding: 20vh 10vw;
     
 }.container .info h1{
     font-family: 'Kaushan Script', cursive;
@@ -153,7 +151,6 @@
     }
 
     #header {
-        height: 70vh;
         margin-bottom: 50px;
     }
 
@@ -164,12 +161,12 @@
 
     .container .info {
         /* background-color: green; */
-        width: 70%;
-        top: 15%;
-        left: 10%;
+        width: 80%;
+        padding: 10vh 10vw;
     }
     .container .info p {
         font-size: 27px;
+        margin-top: 5px;
     }
     .container .info h1{
         font-size: 35px;
@@ -188,7 +185,7 @@
 
 @media screen and (max-width: 550px) {
     #header {
-        height: 95vh;
+        height: 100vh;
         margin-bottom: 50px;
     }
     .heading h2{
