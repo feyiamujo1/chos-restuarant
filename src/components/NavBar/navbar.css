@@ -1,16 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+
 .navbar{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    background-color: white;
+    color: rgb(43, 41, 41);
+
+    position: fixed;
+    width: 100%;
 }
-.navbar .nav-links{
+.logo{
     display: flex;
+    /* justify-content: space-between; */
 }
-.navbar .nav-links li{
-    margin: 10px;
+.customLogo{
+    font-family: 'Square Peg', cursive;
+    font-size: 30px;
+    font-weight: 600;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.nav-links{
+    display: flex;
+    /* width: 60%; */
+    justify-content: space-evenly;
+}
+li{
+    margin: 0 20px;
     list-style: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
-.navbar .nav-links li .text_link{
+.text_link{
     text-decoration: none;
+    font-size: 15px;
+    color: rgb(43, 41, 41);
 }
+.active{
+    color: rgb(245, 22, 59);
+}
+
+/*-----Media Queries-----*/
+@media screen and (min-width:280px) {
+    li{
+        margin: 0 10px;
+    }
+}
+@media screen and (min-width:320px) {
+    li{
+        margin: 0 15px;
+    }
+}
+@media screen and (min-width:425px) {
+    li{
+        margin: 0 15px;
+    }
+} 
+@media screen and (min-width:768px) {
+    .text_link{
+        font-size: 18px;
+    }
+} 

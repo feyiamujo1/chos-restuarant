@@ -1,0 +1,19 @@
+.contact-wrapper{
+    height: 100vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    width: 60%;
+    margin: auto auto;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+input{
+    margin: 10px 0;
+}

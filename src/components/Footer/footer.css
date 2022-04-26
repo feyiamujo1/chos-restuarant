@@ -1,4 +1,15 @@
 footer{
+    background-color: white;
+    color: rgb(43, 41, 41);
     text-align: center;
-    padding: 10px 10px 10px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+.copyright{
+    color: rgb(245, 22, 59);
+}
+p{
+    margin: 0;
 }
