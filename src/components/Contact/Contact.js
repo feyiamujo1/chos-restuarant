@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "./contact.css"
 
 function Contact() {
@@ -12,7 +13,8 @@ function Contact() {
                 <h3>Leave us a message</h3>
                 <input placeholder="Enter your name"></input>
                 <input placeholder="Enter your email"></input>
-                <input placeholder="Enter your message"></input>
+                <textarea placeholder="Enter your message" rows="6"></textarea>
+                <button><Link to="/">Send Message</Link></button>
             </div>
         </div>
     )

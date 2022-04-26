@@ -16,4 +16,26 @@
 }
 input{
     margin: 10px 0;
+    padding: 5px;
+}
+textarea{
+    padding: 10px;
+}
+button{
+    margin:10px auto;
+    width: 150px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    background: none;
+    color: rgba(0, 0, 0, 0.575);
+    font-size: 18px;
+
+}
+button a{
+    text-decoration: none;
+}
+button a:hover{
+    color: rgb(245, 22, 59);
 }

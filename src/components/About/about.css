@@ -1,0 +1,202 @@
+.about_page {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* margin: 0 auto; */
+}
+#header {
+    height: 90vh;
+}
+.bg-image {
+    background: url("../../images//restaurant-img4.jpg") no-repeat center fixed;
+    background-position: bottom;
+    background-size: cover;
+    height: 90vh;
+    filter: blur(3px);
+    
+}
+.container .info {
+    color: #FBB448;
+    width: 50%;
+    font-size: 30px;
+    padding: 10px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    
+}.container .info h1{
+    font-family: 'Kaushan Script', cursive;
+    color: #fff;
+}
+.container .info p {
+    margin-top: 20px;
+    /* text-align: justify; */
+    font-size: 25px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 24px;
+}
+.heading h2{
+    font-family: 'Kaushan Script', cursive;
+    color: #8b5123;
+    padding-top: 20px;
+}
+.services {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+    /* background: green; */
+    margin: 10px auto;
+}
+
+.services .card {
+    position: relative;
+    width: 280px;
+    height: 450px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+   }
+
+.services .card .content {
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.services .card .content:hover {
+    opacity: 1;
+}
+
+.services .card .content h2 {
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services .card .content h3 {
+    display: block;
+    font-size: 1.8em;
+    color: #fff;
+    z-index: 1;
+}
+
+.services .card .content img {
+    margin-top: 10px;
+        
+}
+.services .card .content .products {
+    margin: 20px 10px;
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+}
+.services .card .content .read_more_link {
+    padding: 8px 20px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.services .card .content .read_more_link:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    .services .card .content {
+        padding: 20px;
+        text-align: center;
+        opacity: 1;
+    }
+
+    #header {
+        height: 100vh;
+    }
+
+    .container .info p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    #header {
+        height: 70vh;
+        margin-bottom: 50px;
+    }
+
+    .container {
+        height: 100%;
+        width: 100%;
+    }
+
+    .container .info {
+        /* background-color: green; */
+        width: 70%;
+        top: 15%;
+        left: 10%;
+    }
+    .container .info p {
+        font-size: 27px;
+    }
+    .container .info h1{
+        font-size: 35px;
+    }
+    .services .card .content {
+        padding: 20px;
+        text-align: center;
+        opacity: 1;
+    }
+    .services .card .content .read_more_link:hover {
+        background: #000;
+        color: #fff;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    #header {
+        height: 95vh;
+        margin-bottom: 50px;
+    }
+    .heading h2{
+        padding: 0px;
+        font-size: 24px;
+    }
+    .container .info p {
+        font-size: 20px;
+    }
+
+}

@@ -82,7 +82,7 @@ function Product() {
                     <p>Our restaurant features lavish buffets combining Continental, African, Indian, Arabic and Far 
                         Eastern flavors with action stations, live cooking, theme nights, Sunday brunch and 
                         healthy corners. Ideal for families, friends or even a business lunch.</p>
-                        <hr/>
+                        <div className="line-deco"></div>
                 </div>
                 <div className="menu_container">
                     {
