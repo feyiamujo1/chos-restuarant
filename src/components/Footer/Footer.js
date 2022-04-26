@@ -4,7 +4,9 @@ function Footer(){
     return(
         <div>
             <footer>
-                Powered by: React Group 76 for SideHustle Internship 5.0
+                <p>
+                    <span className="copyright">&copy; Powered by: </span>React Group 76 for SideHustle Internship 5.0
+                </p>
             </footer>
         </div>
     )

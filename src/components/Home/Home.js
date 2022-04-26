@@ -7,14 +7,13 @@ function Home() {
         <div className="wrapper">
             <div className="content">
                 <div className="welcome">
-                    <h1>Welcome</h1>
+                    {/* <h1>Welcome</h1> */}
                     <span className="customLogo home-logo"> chos-restaurant</span>  
                     <p><em>Reimagining Chinese Cuisine</em></p>
                     <div className="home-buttons">
                         <button>View Menu</button>
                     </div>
                 </div>
-                
             </div>
         </div>
     )

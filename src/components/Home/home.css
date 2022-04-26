@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.575);
@@ -15,12 +18,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 250px;
     color: whitesmoke;
 }
 .welcome .home-logo{
-    font-size: 60px;
+    font-size: 80px;
     padding: 0;
+}
+.welcome p{
+    letter-spacing: 2px;
 }
 .home-buttons > button{
     margin-top: 20px;
@@ -33,6 +38,11 @@
 }
 
 /* -----Media Queries */
+@media screen and (min-width:280px) {
+    .welcome .home-logo{
+        font-size: 60px;
+    }
+}
 @media screen and (min-width:1024px) {
     h1{
         font-size: 60px;

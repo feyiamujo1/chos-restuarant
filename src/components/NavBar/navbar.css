@@ -5,51 +5,62 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: black;
-    color: whitesmoke;
+    background-color: white;
+    color: rgb(43, 41, 41);
+
     position: fixed;
-    height: 120px;
     width: 100%;
 }
 .logo{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .customLogo{
     font-family: 'Square Peg', cursive;
-    font-size: 45px;
+    font-size: 30px;
+    font-weight: 600;
+}
+ul{
+    margin: 0;
+    padding: 0;
 }
 .nav-links{
     display: flex;
-    width: 60%;
+    /* width: 60%; */
     justify-content: space-evenly;
 }
 li{
-    margin: 10px;
+    margin: 0 20px;
     list-style: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 .text_link{
     text-decoration: none;
-    font-weight: bold;
-    font-size: 17px;
-    color: whitesmoke;
+    font-size: 15px;
+    color: rgb(43, 41, 41);
 }
 .active{
     color: rgb(245, 22, 59);
 }
 
 /*-----Media Queries-----*/
+@media screen and (min-width:280px) {
+    li{
+        margin: 0 10px;
+    }
+}
 @media screen and (min-width:320px) {
-    .text_link{
-        font-size: 20px
+    li{
+        margin: 0 15px;
     }
 }
 @media screen and (min-width:425px) {
-    .customLogo{
-        font-size: 50px
+    li{
+        margin: 0 15px;
     }
+} 
+@media screen and (min-width:768px) {
     .text_link{
-        font-size: 23px;
+        font-size: 18px;
     }
-}
+} 
