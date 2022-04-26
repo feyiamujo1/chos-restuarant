@@ -42,7 +42,7 @@
     color: #fff;
 }
 button a:hover{
-    color: rgb(245, 22, 59);
+    color: #8b5123;
 }
 /* -----Media Queries */
 @media screen and (min-width:280px) {
