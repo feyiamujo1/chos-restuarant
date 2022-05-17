@@ -9,7 +9,7 @@ function About() {
     const courses = [
         {id: 1, foodname: "Snacks", image: Snack},
         {id: 2, foodname: "Desserts", image: Dessert},
-        {id: 3, foodname: "Cuisines", image: Food}
+        {id: 3, foodname: "Cuisines", image: Food}      
     ]
     return(
         <div className="about_page">
@@ -19,7 +19,7 @@ function About() {
                     <h1>About Us</h1>
                     <p>We are a seasonal restaurant with freshly-baked snacks, sweet desserts and delicous food/delicacies. We are located in Nigeria and the business is run
                         by SH-Group-76 interns. We are longtime champions of mouthwatering cooking and have renowned chefs including those from Africa, Europe and China.
-                        At this restaurant, we continue to offer dedicated services as well as affordable food menus to our customers.         </p>
+                        At this restaurant, We continue to offer dedicated services as well as affordable food menus to our customers.         </p>
                     </div>
                 </div>
             </section>
