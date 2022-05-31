@@ -3,7 +3,7 @@
 .products_display{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/public/products_bg.jpg") no-repeat center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/public/product_backgrd.jpg") no-repeat center fixed;
     background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
     box-sizing: border-box;
